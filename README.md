@@ -11,7 +11,7 @@ Your task is to develop a system which is able to generate a financial report ba
 
 1. [streaming.csv](https://github.com/Primephonic/backend-engineer-assignment/blob/master/streaming.csv): local file containing information of which tracks have been streamed by which users, and the duration of each stream.
 2. [users.csv](https://github.com/Primephonic/backend-engineer-assignment/blob/master/users.csv): local file containing user profile information such as their active subscription plan and which platform they subscribed with (Apps stores or via web).
-3. [Music Streaming API](https://backend-assignment.s3.eu-central-1.amazonaws.com/tracks.json): remote JSON file which provides additional metadata per each track, such as the track name and the label it belongs to.
+3. [Metadata API](https://backend-assignment.s3.eu-central-1.amazonaws.com/tracks.json): remote JSON file which provides additional metadata per each track, such as the track name and the label it belongs to.
 
 ## Business rules
 To work out how much money needs to be sent to each label, we first need to determine what our overall revenue is. As each user has an active subscription, we simply add up all of their subscription fees, taking the following into account that:
