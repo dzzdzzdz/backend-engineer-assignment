@@ -38,7 +38,9 @@ The assignment must:
 
 2. Generate the financial output based on the business rules
 
-3. Expose this data via a RESTful API (`GET /report`)
+3. Expose this data via a RESTful API with 2 endpoints:
+- `GET /report` returns the amount to be paid our per label (i.e.`{ "Label 1" : 5000, "Label 2": 3000, "Label 3": 2000}`)
+- `GET /users/{user_id}` returns how many seconds have been streamed for this user (i.e. `{"User":"User id 1","Total Streamed":3000}`)
 
 ## Evaluation criteria
 The assignment will be evaluated based on the following points:
