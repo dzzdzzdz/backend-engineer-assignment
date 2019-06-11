@@ -34,7 +34,7 @@ Now we need to analyse the streaming data itself to determine how many seconds i
 ## Tasks
 The assignment must:
 1. Consolidate all 3 different data sources into a single source of truth (can be stored in-memory). Each entry in this storage must have the following structure:</br>
-`{ date, user_id, product_type, fee, origin, region, track_id, track_name, track_labelm seconds }`
+`{ date, user_id, product_type, fee, origin, region, track_id, track_name, track_label, seconds }`
 
 2. Generate the financial output based on the business rules
 
